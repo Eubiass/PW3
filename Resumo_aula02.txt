@@ -1,0 +1,3 @@
+data-binding: fazer o html entender o meu typescript
+ --interpolação: {{nome variável}}
+ --property binding(específico para propriedades): [propriedade] -ideal

@@ -1,15 +1,5 @@
-<div class="container" class="p-3 mb-2 bg-secondary text-white">
-    <img [src]="img_biscoito" class="rounded mx-auto d-block">
-    <p></p>
-
-    <p [hidden] ="fechado" class="lead" class="text-center">{{mensagem}}</p>
-    <p></p>
-
-    <div class="d-grid gap-2 col-6 mx-auto">
-
-        <button (click)="abrir()" type="button" class="btn btn-success btn-quebrar">Abra o biscoito</button>
-        <button (click)="limpar()" type="button" class="btn btn-outline-danger">Limpar</button>
-
-    </div>
-</div>
+<img [src]="img_biscoito">
+<p [hidden] ="fechado">{{mensagem}}</p>
+<button (click)="abrir()">Quebrar</button>
+<button (click)="limpar()">Limpar</button>
 <router-outlet />
