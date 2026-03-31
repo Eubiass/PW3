@@ -1,0 +1,15 @@
+----- criar componente --------
+ng generate component
+ng g c
+
+------ criar interface --------
+ng generate interface
+ng g i
+
+
+-------------------------------
+id: number (obrigatório)
+duracao?: number (não obrigatório)
+
+--------- ---------------------
+! - garante que a informação não será nula
